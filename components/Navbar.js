@@ -1,6 +1,6 @@
-import Nav from "../components/Nav";
-import Logo from "../components/Logo";
-import Button from "../components/Button";
+import Nav from "./Nav";
+import Logo from "./Logo";
+import Button from "./Button";
 export default function Navbar(){
     return(
         <div className="flex items-center py-10">

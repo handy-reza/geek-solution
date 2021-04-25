@@ -1,4 +1,4 @@
-import NavItem from "../components/NavItems"
+import NavItem from "./NavItems"
 export default function Nav() {
   return (
       <ul className="flex justify-center space-x-10">
