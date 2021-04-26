@@ -1,26 +1,36 @@
 import Title from "./SectionTitle";
+import ServiceItems from "./ServiceItems";
 export default function Services() {
   return (
     <div className="bg-redpatrick">
-    <div className="container mx-auto text-center pt-10 ">
-      <Title>Our Services</Title>
-      <div className="flex">
-        <div className="w-6/12 px-4 text-center">
-          <article className="w-full rounded-lg shadow bg-gray-100">
-            <img src="/Web2x.png" />
-            <h3 className="text-4xl text-blue-800 font-semibold mb-1 mt-4">
-              Web-Based Application Solutions.
-            </h3>
-            <p className="text-lg text-gray-400 mb-20 inline-block">
-              Our company building web application for public and private
-              organization. We used the latest technology to give the best
-              solution for your web application. We have great and experienced
-              team in the development of web application.
-            </p>
-          </article>
+      <div className="container mx-auto text-center pt-10 h-[2100px] ">
+        <Title>Our Services</Title>
+        <div className="flex flex-wrap">
+          <ServiceItems
+            name="Web-Based Application Solutions."
+            description="Our company has experience more than 3 years building web application for public and private organization. We used the latest technology to give the best solution for your web application. We have great and experienced team in the development of web application."
+            image="/Web2x.png"
+          />
+
+          <ServiceItems
+            name="System Integration."
+            description="One stop IT Procurement services for your whole IT infrastructure such as network solution, data center, security system, system integration with high quality performance."
+            image="/System2x.png"
+          />
+
+          <ServiceItems
+            name="Mobile-Based Application Solutions."
+            description="Nowadays mobile application becomes the fastest place for marketing strategy in Indonesia. Our company able to create user experience through mobile application system that was oriented by iOS and android system."
+            image="/mobile2x.png"
+          />
+
+          <ServiceItems
+            name="Experience Design."
+            description="We can design and build all your creative needs. We always ensure our clients satifisfied with our creative and strategic approach with passion for excellent customer experience."
+            image="/Design2x.png"
+          />
         </div>
       </div>
-    </div>
     </div>
   );
 }
