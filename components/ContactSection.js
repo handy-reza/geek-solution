@@ -4,7 +4,7 @@ import Field from "./Field";
 
 export default function Contact() {
   return (
-    <section className="container mx-auto pt-10 pb-12">
+    <section className="container mx-auto pt-10 pb-12 h-auto" id="contact">
       <div className="bg-gray-100 p-14 flex rounded-lg">
         <div className="w-6/12">
           <p className="font-semibold text-5xl text-blue-800">Geek Contact</p>

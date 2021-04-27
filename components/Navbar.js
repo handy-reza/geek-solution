@@ -9,8 +9,8 @@ export default function Navbar() {
         <Nav />
       </div>
       <div className="w-3/12 text-right">
-        <Button pill variant="outline-blue">
-          Contact
+        <Button href="#contact" pill variant="outline-blue">
+          Login
         </Button>
       </div>
     </header>

@@ -3,8 +3,8 @@ import CompetenciesCard from "./CompetenciesCard";
 import Title from "./SectionTitle";
 export default function Competencies() {
   return (
-    <section className="bg-gray-100 h-[900px] pt-10 mt-20">
-      <div className="container mx-auto text-center ">
+    <section className="bg-gray-100 h-auto pt-10 mt-20 pb-32" id="competencies">
+      <div className="container text-center mx-auto">
         <Title>Our Competencies.</Title>
         <div className="container flex  flex-wrap mx-auto">
           <CompetenciesCard

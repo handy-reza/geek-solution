@@ -1,7 +1,7 @@
 import Title from "./SectionTitle";
 export default function Profile() {
   return (
-    <section>
+    <section id="profile">
       <div className="container mx-auto">
         <div className="flex items-center my-30">
           <div className="w-6/12">

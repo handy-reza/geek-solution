@@ -2,8 +2,8 @@ import Title from "./SectionTitle";
 import ServiceItems from "./ServiceItems";
 export default function Services() {
   return (
-    <div className="bg-redpatrick">
-      <div className="container mx-auto text-center pt-10 h-[2100px] ">
+    <section className="bg-redpatrick">
+      <div className="container mx-auto text-center pt-10 h-auto pb-20 " id="services">
         <Title>Our Services</Title>
         <div className="flex flex-wrap">
           <ServiceItems
@@ -31,6 +31,6 @@ export default function Services() {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 }
