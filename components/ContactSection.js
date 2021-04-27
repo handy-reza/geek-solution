@@ -5,8 +5,8 @@ import Field from "./Field";
 export default function Contact() {
   return (
     <section className="container mx-auto pt-10 pb-12 h-auto" id="contact">
-      <div className="bg-gray-100 p-14 flex rounded-lg">
-        <div className="w-6/12">
+      <div className="bg-gray-100 p-14 flex flex-wrap rounded-lg">
+        <div className="md:w-6/12 w-12/12">
           <p className="font-semibold text-5xl text-blue-800">Geek Contact</p>
           <p>Get in touch with us</p>
           <ContactItem
@@ -28,7 +28,7 @@ export default function Contact() {
             className="mt-6"
           />
         </div>
-        <div className="w-6/12">
+        <div className="md:w-6/12 w-12/12">
           <form className="lg:py-16 lg:px-20 md:p-14 p-10">
             <div className="flex flex-wrap -mx-4">
               <div className="lg:w-6/12 w-full px-4">

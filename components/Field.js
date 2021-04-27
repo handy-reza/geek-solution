@@ -1,6 +1,6 @@
 export default function Field({ label, name, type, className }) {
     const addClassName = className ? ` ${className}` : "";
-    const formControlClassName = `bg-transparent border border-primarygray-300 py-3 px-6 w-full${addClassName}`;
+    const formControlClassName = `bg-white border border-black py-3 md:px-6 px-0 w-full${addClassName}`;
 
     return (
         <div className="mb-6">

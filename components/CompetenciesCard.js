@@ -3,7 +3,7 @@ export default function CompetenciesCard({ name, nameClassName, desc, image, des
   const addDescClassName = descClassName ? `${descClassName}` : "";
   const addNameClassName = nameClassName ? `${nameClassName}` : "";
   return (
-    <div className="w-3/12 bg-white shadow-lg rounded-lg m-16 h-[500px] grid grid-rows-2">
+    <div className="2xl:w-3/12 bg-white shadow-lg rounded-lg 2xl:m-16 m-16 h-[500px] grid grid-rows-2">
       <div className="w-[300px] mx-auto">
         <img src={image} className="w-full" />
       </div>

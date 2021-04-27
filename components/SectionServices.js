@@ -8,7 +8,7 @@ export default function Services() {
         <div className="flex flex-wrap">
           <ServiceItems
             name="Web-Based Application Solutions."
-            description="Our company has experience more than 3 years building web application for public and private organization. We used the latest technology to give the best solution for your web application. We have great and experienced team in the development of web application."
+            description="Our company building web application for public and private organization. We used the latest technology to give the best solution for your web application. We have great and experienced team in the development of web application."
             image="/Web2x.png"
           />
 
