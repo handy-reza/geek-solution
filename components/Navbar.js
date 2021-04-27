@@ -3,7 +3,7 @@ import Logo from "./Logo";
 import Button from "./Button";
 export default function Navbar() {
   return (
-    <div className="flex items-center py-10">
+    <header className="flex items-center py-10">
       <Logo>Geek</Logo>
       <div className="w-6/12 ">
         <Nav />
@@ -13,6 +13,6 @@ export default function Navbar() {
           Contact
         </Button>
       </div>
-    </div>
+    </header>
   );
 }

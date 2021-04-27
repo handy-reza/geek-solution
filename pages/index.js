@@ -2,7 +2,8 @@ import Hero from "../components/Hero"
 import Profile from "../components/ProfileSection"
 import Competencies from "../components/SectionCompetencies"
 import Services from "../components/SectionServices"
-import Button from "../components/Button";
+import Contact from "../components/ContactSection";
+import Footer from "../components/Footer"
 export default function Home() {
   return (
     <>
@@ -10,6 +11,8 @@ export default function Home() {
       <Profile/>
       <Competencies/>
       <Services/>
+      <Contact/>
+      <Footer/>
     </>
   );
 }
